@@ -46,4 +46,11 @@ def ingresarDatos():
     else:
         print("Lo siento, no puede ser un triángulo.")
 
-ingresarDatos()
+
+print("Analisis de  un triangulo")
+print("-------------------------")
+opt = int(input("Si deseas analizar tu triangulo ingresa 1, y si quieres salir delprograma ingresa 0\n"))
+while (opt == 1):
+    ingresarDatos()
+    opt = int(input("Si deseas analizar tu triangulo ingresa 1, y si quieres salir delprograma ingresa 0\n"))
+print("Muchas gracias...")
